@@ -104,6 +104,22 @@ nav a:hover {
     transform: rotate(0deg);
   }
 }
+.hero .btn {
+  padding: 15px 30px;
+  background-color: #6c63ff;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.hero .btn:hover {
+  background-color: #4b47cc;
+}
 
 /* Skills Section */
 .skills {
