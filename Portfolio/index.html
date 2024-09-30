@@ -8,74 +8,82 @@
   </head>
   <body>
     <!-- Header Section -->
-    <header>
-      <!-- Logo on the left -->
-      <div class="logo">
-        <h2>RUJAL SHRESTHA</h2>
-      </div>
-      <!-- Navigation Menu on the right -->
-      <nav>
-        <ul>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#contact">Contact Me</a></li>
-        </ul>
-      </nav>
-    </header>
+    <section>
+      <header>
+        <div class="logo">
+          <img
+            src="https://cdn.freebiesupply.com/logos/large/2x/rutgers-scarlet-knights-7-logo-png-transparent.png"
+            alt="logo"
+            width="100"
+          />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </nav>
+      </header>
+    </section>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-      <h1>
-        Hi all I'm <span class="name">Rujal Shrestha</span>
-        <span class="wave">👋</span>
-      </h1>
-      <p>A passionate Frontend Developer 🚀</p>
-      <p>
-        Experience with JavaScript / ReactJS / NodeJS / React Native and other
-        cool frameworks.
-      </p>
+      <div class="content">
+        <h1>Hey there, I'm <span class="name">Rujal Shrestha</span></h1>
+        <h2 class="title">Frontend Developer</h2>
+        <p class="description">
+          I can help you build beautiful, interactive websites using modern web
+          technologies that are scalable and future-proof.
+        </p>
+        <a href="#projects" class="cta-button">See My Projects<span>↓</span></a>
+      </div>
 
-      <!-- Social Media Links -->
-      <!-- <div class="social-icons">
-        <a href="#"><img src="github-icon.png" alt="GitHub" /></a>
-        <a href="#"><img src="linkedin-icon.png" alt="LinkedIn" /></a>
-        <a href="#"><img src="google-icon.png" alt="Google" /></a>
-        <a href="#"><img src="facebook-icon.png" alt="Facebook" /></a>
-      </div> -->
-
-      <!-- Call to Action Buttons -->
-      <br />
-      <br />
-      <br />
-        <button class="btn"><a href="#contact">Contact Me</a></button>
-        <button class="btn"><a href="#resume">See My Resume</a>
-      </button>
-    </div>
-
-      <!-- Hero Illustration -->
-      <div class="illustration">
-        <img src="illustration.png" alt="Person Working" />
+      <div class="hero-pic">
+        <img src="/Portfolio/src/assets/images/my image.jpg" alt="My Picture" />
       </div>
     </section>
+
+    <!-- Social Media Links -->
+    <div class="social-icons">
+      <a href="https://github.com/Rujalrambo"
+        ><img
+          src="https://w7.pngwing.com/pngs/646/324/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png"
+          alt="GitHub"
+      /></a>
+      <a href="https://www.linkedin.com/in/rujal-shrestha-0602a6327/"
+        ><img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtQkVZ92zgVhuEisS7qFlVf7xONgyH2_AaVuT7mOX4EoIAh4-aOeSRHHMPmyGU-tCayXA"
+          alt="LinkedIn"
+      /></a>
+    </div>
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
       <h2>Skills</h2>
       <div class="skills-container">
         <div class="skill">
-          <img src="html-icon.png" alt="HTML Icon" />
+          <img
+            src="https://e7.pngegg.com/pngimages/780/934/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png"
+            alt="HTML Icon"
+          />
           <p>HTML</p>
         </div>
         <div class="skill">
-          <img src="css-icon.png" alt="CSS Icon" />
+          <img
+            src="https://e7.pngegg.com/pngimages/603/759/png-clipart-css3-cascading-style-sheets-logo-html-world-wide-web-blue-angle-thumbnail.png"
+            alt="CSS Icon"
+          />
           <p>CSS</p>
         </div>
         <div class="skill">
-          <img src="js-icon.png" alt="JavaScript Icon" />
+          <img
+            src="https://w7.pngwing.com/pngs/640/199/png-transparent-javascript-logo-html-javascript-logo-angle-text-rectangle-thumbnail.png"
+            alt="JavaScript Icon"
+          />
           <p>JavaScript</p>
         </div>
-        <!-- Add more skills as needed -->
       </div>
     </section>
 
@@ -84,19 +92,21 @@
       <h2>Projects</h2>
       <div class="projects-grid">
         <div class="project">
-          <img src="project1.png" alt="Project 1" />
-          <h3>Project 1</h3>
+          <h3>Signature Verification</h3>
           <p>
-            A description of your project goes here. Explain what the project is
-            about, the technologies used, and the challenges overcome.
+            Signature Verification is an application related to verifying
+            authentication of an individual through the use of signature. We
+            used Neural networks and compared with others signatures.
           </p>
         </div>
         <div class="project">
-          <img src="project2.png" alt="Project 2" />
-          <h3>Project 2</h3>
-          <p>Another project description here.</p>
+          <h3>Travel Guide</h3>
+          <p>
+            Travel Guide is an application related to detecting heritage sites
+            and giving the basic description of heritage sites using YOLO V8
+            model. We have created a mobile application using react native.
+          </p>
         </div>
-        <!-- Add more projects as needed -->
       </div>
     </section>
 
@@ -111,18 +121,13 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
       <h2>Contact Me</h2>
-      <p>Email: your.email@example.com</p>
-      <p>Phone: +123-456-7890</p>
+      <p>Email: rujalshrsth@gmail.com</p>
+      <p>Phone: +977 9823238200</p>
     </section>
 
     <!-- Footer Section -->
     <footer>
-      <p>&copy; 2024 Your Name. All rights reserved.</p>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-      </ul>
+      <p>&copy; 2024 Rujal Shrestha. All rights reserved.</p>
     </footer>
   </body>
 </html>
